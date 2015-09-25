@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="500,360" sizebox="4,4,6,6" caption="0,0,0,30">
+    <Font name="SimSun" size="18" bold="true" italic="false" />
+    <Font name="SimSun" size="12" bold="false" italic="false" default="true" />
+    <Font name="SimSun" size="12" bold="true" italic="false" />
+    <Container enabled="true" width="500" height="360" bkcolor="#FFFFFFFF">
+        <VerticalLayout enabled="true">
+            <HorizontalLayout name="systembtn" enabled="true" width="497" height="28">
+                <Button name="closebtn" float="true" pos="455,4,0,0" enabled="true" width="33" height="19" bkcolor="#FF0000FF" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;close.png&apos; source=&apos;0,0,28,28&apos;" hotimage="file=&apos;close.png&apos; source=&apos;29,0,56,28&apos;" pushedimage="file=&apos;close.png&apos; source=&apos;57,0,84,28&apos;" />
+            </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="496" height="45">
+                <Label text="显示照片" float="true" pos="175,8,0,0" enabled="true" width="152" height="26" bkcolor="#FF0000FF" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" />
+            </HorizontalLayout>
+          <Button name="id2GetPapersOK" text="确定"   float="true" pos="36,218,0,0"  enabled="true" width="100" height="50" bkcolor="#FF0000FF" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+          <Button name="id2GetPapersCancel" text="取消" float="true" pos="372,218"     enabled="true" width="100" height="50"  bkcolor="#FF0000FF" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+          <Button name="id2GetPapersPhoto" text="对比照片" bkcolor="#FF0000FF" textcolor="#FFFFFFFF" float="true" pos="60,100" enabled="true" width="100" height="100"  disabledtextcolor="#FFA7A6AA" align="center" />
+          <Button name="id2GetPapersPhoto2" text="对比照片" bkcolor="#FF0000FF" textcolor="#FFFFFFFF" float="true" pos="280,100" enabled="true" width="100" height="100"   disabledtextcolor="#FFA7A6AA" align="center" />
+        </VerticalLayout>
+    </Container>
+</Window>

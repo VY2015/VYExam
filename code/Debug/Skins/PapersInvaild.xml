@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="500,360" sizebox="4,4,6,6" caption="0,0,0,30">
+    <Font name="SimSun" size="18" bold="true" italic="false" />
+    <Font name="SimSun" size="12" bold="false" italic="false" default="true" />
+    <Font name="SimSun" size="12" bold="true" italic="false" />
+    <Container enabled="true" width="500" height="360" bkcolor="#FFFFFFFF">
+        <VerticalLayout enabled="true">
+          <HorizontalLayout name="systembtn" height="28" width="56" >
+            <Button name="closebtn" bkcolor="#FF0000FF" normalimage="file='close.png' source='0,0,28,28'" hotimage="file='close.png' source='29,0,56,28'" pushedimage="file='close.png' source='57,0,84,28'"/>
+          </HorizontalLayout>
+            <HorizontalLayout enabled="true" width="496" height="45">
+                <Label text="证件无效" bkcolor="#FF0000FF" textcolor="#FFFFFFFF" float="true" pos="175,8,0,0" enabled="true" width="152" height="26"  disabledtextcolor="#FFA7A6AA" />
+            </HorizontalLayout>
+            <Button name="PapersInvaildContinue" text="继续校验" textcolor="#FFFFFFFF" float="true" pos="29,194,0,0" enabled="true" width="140" height="35" bkcolor="#FF0000FF"  disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="PapersInvaildRefuse" text="拒绝入场" textcolor="#FFFFFFFF" float="true" pos="262,198,0,0" enabled="true" width="145" height="31" bkcolor="#FF0000FF"  disabledtextcolor="#FFA7A6AA" align="center" />
+            <Label text="该证件有效期限" bkcolor="#FF0000FF" textcolor="#FFFFFFFF" float="true" pos="26,56,0,0" enabled="true" width="60" height="18"  disabledtextcolor="#FFA7A6AA" />
+            <Text  name="PapersInvaildInfo" text="动态编写有效期" textcolor="#FFFFFFFF" bkcolor="#FF0000FF" float="true" pos="24,81,0,0" enabled="true" width="470" height="33" textpadding="2,0,2,0" align="wrap" />
+        </VerticalLayout>
+    </Container>
+</Window>

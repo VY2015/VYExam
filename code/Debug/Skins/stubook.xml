@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Stubook size="1004,436" sizebox="4,4,6,6" caption="0,0,0,30">
+  <Default shared="true" name="VScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,90,16,106' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,90,34,106' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,90,52,106' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,90,70,106' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,108,16,124' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,108,34,124' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,108,52,124' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,108,70,124' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,126,16,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,126,34,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,126,52,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,126,70,142' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,144,16,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,144,34,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,144,52,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,144,70,160' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,162,16,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,162,34,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,162,52,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,162,70,178' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <Default shared="true" name="HScrollBar" value="button1normalimage=&quot;file='scrollbar.bmp' source='0,0,16,16' mask='#FFFF00FF'&quot; button1hotimage=&quot;file='scrollbar.bmp' source='18,0,34,16' mask='#FFFF00FF'&quot; button1pushedimage=&quot;file='scrollbar.bmp' source='36,0,52,16' mask='#FFFF00FF'&quot; button1disabledimage=&quot;file='scrollbar.bmp' source='54,0,70,16' mask='#FFFF00FF'&quot; button2normalimage=&quot;file='scrollbar.bmp' source='0,18,16,34' mask='#FFFF00FF'&quot; button2hotimage=&quot;file='scrollbar.bmp' source='18,18,34,34' mask='#FFFF00FF'&quot; button2pushedimage=&quot;file='scrollbar.bmp' source='36,18,52,34' mask='#FFFF00FF'&quot; button2disabledimage=&quot;file='scrollbar.bmp' source='54,18,70,34' mask='#FFFF00FF'&quot; thumbnormalimage=&quot;file='scrollbar.bmp' source='0,36,16,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbhotimage=&quot;file='scrollbar.bmp' source='18,36,34,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbpushedimage=&quot;file='scrollbar.bmp' source='36,36,52,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; thumbdisabledimage=&quot;file='scrollbar.bmp' source='54,36,70,52' corner='2,2,2,2' mask='#FFFF00FF'&quot; railnormalimage=&quot;file='scrollbar.bmp' source='0,54,16,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railhotimage=&quot;file='scrollbar.bmp' source='18,54,34,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; railpushedimage=&quot;file='scrollbar.bmp' source='36,54,52,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; raildisabledimage=&quot;file='scrollbar.bmp' source='54,54,70,70' corner='2,2,2,2' mask='#FFFF00FF'&quot; bknormalimage=&quot;file='scrollbar.bmp' source='0,72,16,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkhotimage=&quot;file='scrollbar.bmp' source='18,72,34,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkpushedimage=&quot;file='scrollbar.bmp' source='36,72,52,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; bkdisabledimage=&quot;file='scrollbar.bmp' source='54,72,70,88' corner='2,2,2,2' mask='#FFFF00FF'&quot; " />
+  <HorizontalLayout name="HorizontalLayoutUI1" width="1004" height="436" bkcolor="#FFC6E0F1" >
+    <VerticalLayout name="VerticalLayoutUI1" pos="0,0" width="600" height="436" >
+      <List name="rosterlist"  height="436" width="600" bkcolor="#FFFFFFFF" inset="0,0,0,0" bordercolor="#FF1B4876" bordersize="0" itemshowhtml="false" itemalign="center" itemhotimage="file='tree_hot.bmp' corner='2,1,2,1'" itemselectedimage="file='tree_select.bmp' corner='2,1,2,1'" vscrollbar="true" hscrollbar="true" headerbkimage="headerctrl_normal.bmp" menu="true" itemminwidth="50" >
+        <ListHeader height="24" width="600" menu="true" >
+          <ListHeaderItem text="NO"          font="1" width="40" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="姓名"        font="1" width="80" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="出席状态"    font="1" width="70" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="人工核验"    font="1" width="70" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="报名号"      font="1" width="90" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="座位号"      font="1" width="50" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="枪手库比对"  font="1" width="70" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="历史照比对"  font="1" width="70" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+          <ListHeaderItem text="入场次数"    font="1" width="60" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+        </ListHeader>
+      </List>
+    </VerticalLayout>
+    <HorizontalLayout name="HorizontalLayoutUI1" pos="10,0" width="10" height="436" />
+    <HorizontalLayout name="HorizontalLayoutUI2" pos="610,0" width="394" height="436" bkcolor="#FFFFFFFF" >
+      <VerticalLayout name="VerticalLayoutUI1" pos="10,0" width="394" height="180" bkcolor="#FFFFFFFF" >
+        <Label text="照片采集信息" font="0" float="true" pos="38,6,0,0" enabled="true" width="100" height="19"  textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+        <Label float="true" pos="5,29,0,0" enabled="true" width="380" height="1"  bkcolor="#FF0000FF" />
+        <Button name="stuhisbtn" float="true" pos="20,40" width="80" height="100" bkimage="file='button_norm_green.jpg'" />
+        <Button name="stuprebtn" float="true" pos="160,40" width="80" height="100" bkimage="file='button_norm_green.jpg'" />
+        <Button name="stucurbtn" float="true" pos="300,40" width="80" height="100" bkimage="file='button_norm_green.jpg'" />
+        <Label text="历史照" float="true" pos="43,140,0,0" enabled="true" width="60" height="15" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="上一张" float="true" pos="183,140,0,0" enabled="true" width="60" height="15" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+        <Label text="当前照" float="true" pos="323,140,0,0" enabled="true" width="60" height="15" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	  </VerticalLayout>
+      <VerticalLayout name="VerticalLayoutUI2" pos="10,170" width="394" height="286" bkcolor="#FFFFFFFF" float="true" >
+		            <Label text="报名号："     float="true" pos="8,20,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="中文名："     float="true" pos="8,40,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="英文名："     float="true" pos="8,60,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="中文姓："     float="true" pos="8,80,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="英文姓："     float="true" pos="8,100,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="证件种类："   float="true" pos="8,120,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		            <Label text="证件号码："   float="true" pos="8,140,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		            <Label text="考生来源："   float="true" pos="8,160,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		            <Label text="出生日期："   float="true" pos="8,180,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		            <Label text="证件有效期：" float="true" pos="8,200,0,0" enabled="true" width="65" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		            <Label text="报名号："     float="true" pos="8,220,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Text name="registerNum_text"  float="true" pos="85,23,0,0"  textcolor="#000000FF" text="文本框" enabled="true" width="60" height="14" textpadding="2,0,2,0" align="wrap" />
+                <Text name="cnName_text"       float="true" pos="85,43,0,0"  textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="enName_text"       float="true" pos="85,63,0,0"  textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="cnsName_text"      float="true" pos="85,83,0,0"  textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="ensName_text"      float="true" pos="85,103,0,0" textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="passType_text"     float="true" pos="85,123,0,0" textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="passNum_text"      float="true" pos="85,143,0,0" textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+		            <Text name="examSource_text"   float="true" pos="85,163,0,0" textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+		            <Text name="birth_text"        float="true" pos="85,183,0,0" textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+		            <Text name="passVaildity_text" float="true" pos="85,203,0,0" textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+		            <Text name="registerNum_text"  float="true" pos="85,223,0,0" textcolor="#000000FF" text="文本框" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+
+	  </VerticalLayout>
+    </HorizontalLayout>
+  </HorizontalLayout>
+</Stubook>

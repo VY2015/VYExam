@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<id1check size="1004,436" sizebox="4,4,6,6" caption="0,0,0,30">
+    <HorizontalLayout enabled="true" width="1004" height="436" bkcolor="#FFC6E0F1">
+        <HorizontalLayout enabled="true" width="460" height="436">
+            <VerticalLayout float="true" pos="0,0,0,0" enabled="true" width="460" height="170" bkcolor="#FFFFFFFF">
+                <HorizontalLayout enabled="true" width="460" height="30">
+                    <VerticalLayout enabled="true" width="60" height="30" />
+                    <Label text="居民身份证" float="true"  enabled="true" pos="38,6,0,0" font="0"  width="80" height="19"  textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Label float="true" pos="5,29,0,0" enabled="true" width="445" height="1"  bkcolor="#FF0000FF" />
+                </HorizontalLayout>
+                <Label text="姓名："     float="true" pos="12,40,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="性别："     float="true" pos="12,60,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="民族："     float="true" pos="12,80,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="出生日期：" float="true" pos="12,100,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="地址："     float="true" pos="12,120,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="身份证号：" float="true" pos="12,140,0,0" enabled="true" width="60" height="19" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Button name="id1passPhoto_btn" text="bt证件照" float="true" pos="350,40" width="80" height="100" bkimage="file='button_norm_green.jpg'" />
+                <Label text="证件有效性：" float="true" pos="340,140,0,0" enabled="true" width="65" height="20" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Text name="id1Name_text"     textcolor="#000000FF" float="true"  text="文本框" pos="80,43,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1Sex_text"      textcolor="#000000FF" float="true"  text="文本框" pos="80,63,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1Race_text"     textcolor="#000000FF" float="true"  text="文本框" pos="80,83,0,0" enabled="true" width="200" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1birthDay_text" textcolor="#000000FF" float="true"  text="文本框" pos="80,103,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1Address_text"  textcolor="#000000FF" float="true"  text="文本框" pos="80,123,0,0" enabled="true" width="200" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1passNum_text"  textcolor="#000000FF" float="true"  text="文本框" pos="80,143,0,0" enabled="true" width="200" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1passValidity"  textcolor="#000000FF" float="true"  text="文本框" pos="410,143,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+            </VerticalLayout>
+            <VerticalLayout float="true" pos="0,139,0,0" enabled="true" height="10" />
+            <VerticalLayout float="true" pos="0,180,0,0" enabled="true" width="460" height="130" bkcolor="#FFFFFFFF">
+                <Text name="id1registerNum_text" textcolor="#000000FF" float="true"  text="文本框" pos="80,40,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1cnsName_text"     textcolor="#000000FF" float="true"  text="文本框" pos="80,60,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1ensName_text"     textcolor="#000000FF" float="true"  text="文本框" pos="80,80,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1passType_text"    textcolor="#000000FF" float="true"  text="文本框" pos="80,100,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1examSource_text"  textcolor="#000000FF" float="true"  text="文本框" pos="306,40,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />  
+                <Text name="id1cnName_text"      textcolor="#000000FF" float="true"  text="文本框" pos="306,60,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1enName_text"     textcolor="#000000FF" float="true"  text="文本框" pos="306,80,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />  
+                <Text name="id1nextPassNum_text"     textcolor="#000000FF" float="true"  text="文本框" pos="306,100,0,0" enabled="true" width="200" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Label text="报名号："   float="true" pos="14,40,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="中文姓："   float="true" pos="14,60,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="英文姓："   float="true" pos="14,80,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="证件种类：" float="true" pos="14,100,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="考生来源：" float="true" pos="240,40,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />  
+                <Label text="中文名："   float="true" pos="240,60,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="英文名："   float="true" pos="240,80,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="身份证号：" float="true" pos="240,100,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <HorizontalLayout enabled="true" width="460" height="30">
+                    <VerticalLayout enabled="true" width="460" height="30"> 
+                        <HorizontalLayout enabled="true" width="45" height="" />
+                        <Label text="花名册信息" font="0" float="true" pos="38,6,0,0" enabled="true" width="80" height="14" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                        <Label float="true" pos="5,29,0,0" enabled="true" width="445" height="1"  bkcolor="#FF0000FF" />
+                    </VerticalLayout>
+                </HorizontalLayout>
+            </VerticalLayout>
+            <VerticalLayout float="true" pos="0,159,0,0" enabled="true" height="10" />
+            <VerticalLayout float="true" pos="0,320,0,0" enabled="true" width="460" height="110" bkcolor="#FFFFFFFF">
+                <HorizontalLayout enabled="true" width="460" height="30">
+                    <HorizontalLayout enabled="true" width="60" height="30" />
+                    <Label text="考场信息" font="0" float="true" pos="38,6,0,0" enabled="true" width="80" height="15" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+                    <Label float="true" pos="5,29,0,0" enabled="true" width="445" height="1"  bkcolor="#FF0000FF" />
+                </HorizontalLayout>
+                <Label text="考生进场次数："  float="true" pos="14,50,0,0" enabled="true" width="80" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="考场代码："      float="true" pos="14,70,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="考场项目："      float="true" pos="240,50,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="考试日期："      float="true" pos="240,70,0,0" enabled="true" width="60" height="12" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Text name="id1inNumber_text" textcolor="#000000FF" float="true"  text="文本框" pos="100,50,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1examCode_text" textcolor="#000000FF" float="true"  text="文本框" pos="100,70,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1examItem_text" textcolor="#000000FF" float="true"  text="文本框" pos="306,50,0,0" enabled="true" width="60" height="12" textpadding="2,0,2,0" align="wrap" />
+                <Text name="id1examData_text" textcolor="#000000FF" float="true"  text="文本框" pos="306,70,0,0" enabled="true" width="200" height="12" textpadding="2,0,2,0" align="wrap" />
+            </VerticalLayout>
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="150" height="436">
+            <Button name="id1compare" float="true" pos="17,160,0,0" enabled="true" width="118" height="120" align="center" normalimage="file=&apos;compare.png&apos; source=&apos;0,0,158,160&apos;" hotimage="file=&apos;compare.png&apos; source=&apos;158,0,316,160&apos;" pushedimage="file=&apos;compare.png&apos; source=&apos;316,0,474,160&apos;" />
+        </HorizontalLayout>	
+        <HorizontalLayout enabled="true" width="400" height="432" bkcolor="#FFFFFFFF">
+            <VerticalLayout enabled="true" width="400" height="180" bkcolor="#FFFFFFFF" >
+              <Label text="照片采集信息" font="0" float="true" pos="38,6,0,0" enabled="true" width="100" height="19"  textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+              <Label float="true" pos="5,29,0,0" enabled="true" width="380" height="1"  bkcolor="#FF0000FF" />
+		            <Button name="id1hisbtn" float="true" pos="20,40" width="80" height="100" bkimage="file='button_norm_green.jpg'" />
+		            <Button name="id1prebtn" float="true" pos="160,40" width="80" height="100" bkimage="file='button_norm_green.jpg'" />
+		            <Button name="id1curbtn" float="true" pos="300,40" width="80" height="100" bkimage="file='button_norm_green.jpg'" />
+                <Label text="历史照" float="true" pos="43,140,0,0" enabled="true" width="60" height="15" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="上一张" float="true" pos="183,140,0,0" enabled="true" width="60" height="15" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                <Label text="当前照" float="true" pos="323,140,0,0" enabled="true" width="60" height="15" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+	         </VerticalLayout>
+            <VerticalLayout float="true" pos="0,170,0,0" enabled="true" width="400" height="240" bkcolor="#FFFFFFFF" >
+		            <ActiveX name="id1ActiveX" clsid="{26BA9E7F-78E9-4FB8-A05C-A4185D80D759}" mouse="false" delaycreate="true" pos="10,10" width="380" height="240" float="true" /> 
+		            <!--<Label text="请选择摄像头：" float="true" pos="100,250,0,0" enabled="true" width="80" height="16" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+		            <Combo name="ComboUI1" float="true" pos="200,250,0,0" width="150" height="16" dropboxsize="0,150" bkcolor="#FF000000" bkimage="file='button_norm_green.jpg'" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" />-->
+	      </VerticalLayout>
+        </HorizontalLayout>
+    </HorizontalLayout>
+</id1check>

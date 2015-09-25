@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Report size="1004,436" sizebox="4,4,6,6" caption="0,0,0,30">
+    <VerticalLayout enabled="true" width="1004" height="436" bkcolor="#FFFFFFFF">
+        <HorizontalLayout enabled="true" width="1002" height="52">
+             <Label text="考生异常报告" float="true" font="0" pos="38,6,0,0" enabled="true" width="120" height="19"  textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" />
+             <Label float="true" pos="10,29,0,0" enabled="true" width="985" height="1"  bkcolor="#FF0000FF" />
+            <HorizontalLayout enabled="true" width="37" height="41" />
+        </HorizontalLayout>
+        <HorizontalLayout enabled="true" width="1001" height="55">
+            <Button name="btn_type_choice" bkimage="file='button_norm_blue.jpg'" text="记录类型选择" float="true" pos="10,0,0,0" enabled="true" width="150" height="22"  textcolor="#FFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="btn_person_choice" bkimage="file='button_norm_blue.jpg'" text="涉及人员选择" float="true" pos="10,28,0,0" enabled="true" width="150" height="22"  textcolor="#FFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Combo name="com_evn" bkimage="file='combo_hot.jpg'"  float="true" pos="702,0,0,0" enabled="true" width="150" height="20"  bkcolor="#FFFFF000"  itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" dropboxsize="0,150" >
+              <ListLabelElement text="需添加信息" selected="true" />
+              </Combo>
+            <Combo name="com_up"  bkimage="file='combo_hot.jpg'"  float="true" pos="702,28,0,0" enabled="true" width="150" height="20"  bkcolor="#FFFFF000"  itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" dropboxsize="0,150" >
+              <ListLabelElement text="需添加信息" selected="true" />
+              </Combo>
+            <Label text="事件发生事件：" float="true" pos="623,3,0,0" enabled="true" width="97" height="15"  textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Label text="上传附件："     float="true" pos="645,31,0,0" enabled="true" width="79" height="15" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+            <Button name="btn_add"  float="true" pos="858,28,0,0" enabled="true" width="20" height="20" bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+            <Button name="btn_del"  float="true" pos="883,28,0,0" enabled="true" width="20" height="20" bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+        </HorizontalLayout>
+        <VerticalLayout enabled="true" width="1000" height="120">
+            <HorizontalLayout enabled="true" width="996" height="148">
+                <HorizontalLayout enabled="true" width="80" height="145">
+                    <Label text="详细情况" float="true" pos="15,20,0,0" enabled="true" width="58" height="77" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                </HorizontalLayout>
+                <HorizontalLayout enabled="true" width="800" height="120"  >
+                    <RichEdit name="edit_more"  float="true"  pos="0,13" bordersize="1" bordercolor="#000000FF" bkcolor="#FFFFFFFF" enabled="true" width="800" height="100"  textpadding="4,3,4,3" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA"  vscrollbar="true"/>
+                </HorizontalLayout>
+                <HorizontalLayout enabled="true" width="162" height="145">
+                    <Button  name="btn_new"    text="新增记录" float="true" pos="5,12,0,0" enabled="true" width="120" height="30"  bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <Button  name="btn_save"   text="保存"     float="true" pos="5,47,0,0" enabled="true" width="120" height="30"  bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                    <Button  name="btn_delete" text="删除"     float="true" pos="5,82,0,0" enabled="true" width="120" height="30"  bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+                </HorizontalLayout>
+            </HorizontalLayout>
+        </VerticalLayout>
+        <VerticalLayout enabled="true" width="1001" height="210">
+            <List name="list_port"  float="true"   itemlistcolor ="#FF0000FF" itemlinecolor="#FF0000FF" pos="10,0,0,0" inset="0,0,0,0"  enabled="true" width="985" height="150"  itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" vscrollbar="true">
+	              <ListHeaderItem text="序号"         bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" font="1" width="60"  hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                <ListHeaderItem text="记录类型"     bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" font="1" width="200" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                <ListHeaderItem text="事件发生事件" bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" font="1" width="150" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                <ListHeaderItem text="涉及人员"     bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" font="1" width="200" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                <ListHeaderItem text="详细情况"     bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" font="1" width="200" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                <ListHeaderItem text="附件个数"     bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" font="1" width="182" hotimage="file='list_header_hot.png'" pushedimage="file='list_header_pushed.png'" sepimage="file='list_header_sep.png'" sepwidth="1"/>
+                <ListHeader enabled="true" />
+            </List>
+            <Button name="btn_upload" text="提交上传" float="true" pos="346,163,0,0" enabled="true" width="337" height="30" bkimage="file='button_norm_blue.jpg'" textcolor="#FFFFFFFF" disabledtextcolor="#FFA7A6AA" align="center" />
+        </VerticalLayout>
+    </VerticalLayout>
+</Report>
+ 

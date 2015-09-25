@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,400" sizebox="4,4,6,6" caption="0,0,0,30">
+    <Font name="SimSun" size="18" bold="true" italic="false" />
+    <Font name="SimSun" size="12" bold="false" italic="false" default="true" />
+    <Font name="SimSun" size="12" bold="true" italic="false" />
+    <Container enabled="true" width="800" height="400" bkimage="file=&apos;login_bk.jpg&apos; corner=&apos;320,100,100,0&apos;">
+        <VerticalLayout enabled="true">
+            <HorizontalLayout enabled="true" height="1">
+                <Control enabled="true" />
+                <HorizontalLayout name="systembtn" enabled="true" width="84">
+                    <!--<Button name="menubtn" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;menu.png&apos; source=&apos;0,0,28,28&apos;" hotimage="file=&apos;menu.png&apos; source=&apos;29,0,56,28&apos;" pushedimage="file=&apos;menu.png&apos; source=&apos;57,0,84,28&apos;" />
+                    <Button name="minbtn" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;min.png&apos; source=&apos;0,0,28,28&apos;" hotimage="file=&apos;min.png&apos; source=&apos;29,0,56,28&apos;" pushedimage="file=&apos;min.png&apos; source=&apos;57,0,84,28&apos;" />
+                    <Button name="closebtn" enabled="true" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="file=&apos;close.png&apos; source=&apos;0,0,28,28&apos;" hotimage="file=&apos;close.png&apos; source=&apos;29,0,56,28&apos;" pushedimage="file=&apos;close.png&apos; source=&apos;57,0,84,28&apos;" />-->
+                </HorizontalLayout>
+            </HorizontalLayout>
+            <VerticalLayout enabled="true">
+                <VerticalLayout name="loginbox" enabled="true" bkcolor="#FFFFFFFF">
+                    <HorizontalLayout enabled="true" height="80" inset="50,40,10,10">
+                        <Label text="{b}姓名{/b}" enabled="true" width="60" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        <Edit  name="registname" bordersize ="1" bordercolor="#FF0000FF" pos="105,3,0,0" enabled="true" width="198" height="30" bkcolor="#FFFFFFFF" textpadding="20,0,20,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Edit  name="registcompany" float="true" pos="520,40" bordersize ="1" bordercolor="#FF0000FF"  enabled="true" width="198" height="30" bkcolor="#FFFFFFFF" textpadding="20,0,20,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label text="{b}所属单位{/b}" float="true" pos="399,42,0,0" enabled="true" width="60" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                    </HorizontalLayout>
+                    <HorizontalLayout enabled="true" height="50" inset="50,10,10,10">
+                        <Label text="{b}岗位{/b}" enabled="true" width="60" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        <Combo name="registpost" enabled="true" width="200" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;combo_norm.jpg&apos; corner=&apos;2,2,35,2&apos;" hotimage="file=&apos;combo_hot.jpg&apos; corner=&apos;2,2,35,2&apos;" pushedimage="file=&apos;combo_push.jpg&apos; corner=&apos;2,2,35,2&apos;" focusedimage="file=&apos;combo_hot.jpg&apos; corner=&apos;2,2,35,2&apos;" dropboxsize="0,150" />
+                        <Edit  name="registposttitle" bordersize ="1" bordercolor="#FF0000FF" text="请将身份证放置在识别装置上" float="true" pos="520,13,0,0" enabled="true" width="198" height="30" bkcolor="#FFFFFFFF" textpadding="20,0,20,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Label text="{b}职务职称{/b}" float="true" pos="401,11,0,0" enabled="true" width="60" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                    </HorizontalLayout>
+                    <HorizontalLayout enabled="true" height="50" inset="50,10,10,10">
+                        <Label text="{b}证件号码{/b}" enabled="true" width="60" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        <Edit  name="registpapernum" bordersize ="1" bordercolor="#FF0000FF"  text="请将身份证放置在识别装置上" enabled="true" width="198" height="30" bkcolor="#FFFFFFFF" textpadding="20,0,20,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Combo name="registExaminerType" float ="true" pos="520,12,0,0"  enabled="true" width="200" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;combo_norm.jpg&apos; corner=&apos;2,2,35,2&apos;" hotimage="file=&apos;combo_hot.jpg&apos; corner=&apos;2,2,35,2&apos;" pushedimage="file=&apos;combo_push.jpg&apos; corner=&apos;2,2,35,2&apos;" focusedimage="file=&apos;combo_hot.jpg&apos; corner=&apos;2,2,35,2&apos;" dropboxsize="0,150" />
+                        <Label text="{b}考官类型{/b}" float="true" pos="401,12,0,0" enabled="true" width="60" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                    </HorizontalLayout>
+                    <HorizontalLayout enabled="true" width="800" height="59" inset="50,10,10,10">
+                        <Label text="{b}手机号码{/b}" enabled="true" width="60" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        <Edit  name="registPhoneNum" bordersize ="1" bordercolor="#FF0000FF"text="请将身份证放置在识别装置上" enabled="true" width="198" height="30" bkcolor="#FFFFFFFF" textpadding="20,0,20,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                        <Combo name="registverify" float ="true" pos="520,12,0,0"  enabled="true" width="200" height="30" itemtextcolor="#FF000000" itemselectedtextcolor="#FF000000" itemselectedbkcolor="#FFC1E3FF" itemhottextcolor="#FF000000" itemhotbkcolor="#FFE9F5FF" itemdisabledtextcolor="#FFCCCCCC" itemdisabledbkcolor="#FFFFFFFF" normalimage="file=&apos;combo_norm.jpg&apos; corner=&apos;2,2,35,2&apos;" hotimage="file=&apos;combo_hot.jpg&apos; corner=&apos;2,2,35,2&apos;" pushedimage="file=&apos;combo_push.jpg&apos; corner=&apos;2,2,35,2&apos;" focusedimage="file=&apos;combo_hot.jpg&apos; corner=&apos;2,2,35,2&apos;" dropboxsize="0,150" />
+                        <Label text="{b}是否通过验证{/b}" float="true" pos="397,16,0,0" enabled="true" width="80" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                    </HorizontalLayout>
+                    <HorizontalLayout enabled="true" width="800" height="75" inset="390,10,50,10">
+                        <Text name="Tologin" text="{a}已有账户，登录{/a}" float="true" pos="596,47,0,0" enabled="true" width="113" height="22" textpadding="2,0,2,0" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" align="wrap" />
+                        <HorizontalLayout float="true" pos="0,0,0,0" enabled="true" width="794" height="39">
+                            <Label text="{b}邮箱地址{/b}" float="true" pos="46,2,0,0" enabled="true" width="60" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                            <Edit  name="registEmailAdd" float="true" bordersize ="1" bordercolor="#FF0000FF" pos="110,3,0,0" enabled="true" width="198" height="30" bkcolor="#FFFFFFFF" textpadding="20,0,20,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                            <Edit  name="registremark" bordersize ="1" bordercolor="#FF0000FF" float="true" pos="520,3,0,0" enabled="true" width="198" height="30" bkcolor="#FFFFFFFF" textpadding="20,0,20,0" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" />
+                            <Label text="{b}备注{/b}" float="true" pos="397,5,0,0" enabled="true" width="50" height="30" textcolor="#000000FF" disabledtextcolor="#FFA7A6AA" showhtml="true" />
+                        </HorizontalLayout>
+                    </HorizontalLayout>
+                    <HorizontalLayout enabled="true" width="800" height="91" inset="50,10,50,0">
+                        <Button name="registbtn" text="{b}注册{/b}" float="true" pos="97,25,0,0" enabled="true" width="594" height="40" textcolor="#00FFFFFF" disabledtextcolor="#FFA7A6AA" showhtml="true" align="center" normalimage="file=&apos;button_norm_blue.jpg&apos; corner=&apos;2,2,2,2&apos;" />
+                    </HorizontalLayout>
+                </VerticalLayout>
+            </VerticalLayout>
+        </VerticalLayout>
+    </Container>
+</Window>

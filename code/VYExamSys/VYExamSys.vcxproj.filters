@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="eloamCom">
+      <UniqueIdentifier>{fcc3c8c5-e96f-4557-add4-569f3ff43600}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{c037493d-775f-4168-9408-60e9d23d5df2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Work">
+      <UniqueIdentifier>{e1d14f83-1d53-49f4-9b27-6881da88b03a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\VYExamSys.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\VYExamSys.ico">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="VYExamSys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\eloamCom\VYDevice.h">
+      <Filter>eloamCom</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\LoginWnd.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MainFrame.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDataDefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Work\DataDefine.h">
+      <Filter>Work</Filter>
+    </ClInclude>
+    <ClInclude Include="DlgChoPerson.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogPassed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DuiRegistDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpLoadProgressBar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoadProgressBar.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildLogin.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildRegist.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="IDDialogNotPassed.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Papers.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UpCheck.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NotUpCheck.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PapersInvalid.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="id2GetPapers.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="id2GetPapers2.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="VYExamSys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\eloamCom\VYDevice.cpp">
+      <Filter>eloamCom</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\LoginWnd.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MainFrame.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DlgChoPerson.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogPassed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IDDialogNotPassed.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DuiRegistDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLoadProgressBar.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UpLoadProgressBar.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildLogin.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildRegist.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Papers.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UpCheck.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NotUpCheck.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PapersInvalid.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="id2GetPapers.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="id2GetPapers2.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VYExamSys.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
